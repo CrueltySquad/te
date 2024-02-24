@@ -1,0 +1,70 @@
+/* CSS for the title effect */
+@keyframes move-title {
+  0% { transform: translateY(-2px); }
+  50% { transform: translateY(2px); }
+  100% { transform: translateY(-2px); }
+}
+
+.title {
+  animation: move-title 2s ease-in-out infinite;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* CSS for the links */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* CSS for the tabs */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #ccc;
+  border-bottom: 2px solid #333;
+}
+
+/* CSS for the content containers */
+.content-container {
+  display: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.content-container.active {
+  display: block;
+}
+
+/* CSS for the body */
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
