@@ -1,8 +1,8 @@
 document.('main-tab').addEventListener('click () => {
-  document.getElementById('-content').classListadd('active');
-  document.getElementByIdupdates-content')..remove('active');
-  document.querySelectorAll('.tab').forEach(tab => tab.classList.remove(''));
-  document.getElementById('main-tab').classList.add('active');
+  document.getElementById('-content').classList.add('active');
+  document.getElementById('updates-content').classList.removeactive');
+  document.querySelectorAll('.').forEach(tab => tab.classList.('active'));
+  document.('main-tab').classList.add('active');
 });
 
 document.getElementById('updates-tab').addEventListener('click', () => {
